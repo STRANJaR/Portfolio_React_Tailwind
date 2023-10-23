@@ -2,8 +2,8 @@
 
 function Header() {
   return (
-    <header className="text-gray-400 bg-gray-900 body-font">
-      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <header className=" text-gray-400  bg-gray-900  body-font ">
+      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center ">
         <a className="flex title-font font-medium items-center text-white mb-4 md:mb-0">
           <svg
             xmlns="https://cdn.worldvectorlogo.com/logos/visual-studio-code-1.svg"
@@ -19,11 +19,14 @@ function Header() {
           </svg>
           <span className="ml-3 text-xl">Developer</span>
         </a>
-        <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center ">
-          <a className="mr-10 hover:text-white cursor-pointer">Home</a>
-          <a className="mr-10 hover:text-white cursor-pointer">About</a>
-          <a className="mr-10 hover:text-white cursor-pointer">Skills</a>
-          <a className="mr-10 hover:text-white cursor-pointer">Contact</a>
+        <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center  ">
+          <a className="mr-10 hover:text-white cursor-pointer" href="#my-home">Home</a>
+          <a className="mr-10 hover:text-white cursor-pointer" href="#my-statistic">Statistic</a>
+          <a className="mr-10 hover:text-white cursor-pointer" href="#my-about">About</a>
+          <a className="mr-10 hover:text-white cursor-pointer" href="#my-service-provider">Services</a>
+          <a className="mr-10 hover:text-white cursor-pointer" href="#my-skills">Skills</a>
+          <a className="mr-10 hover:text-white cursor-pointer" href="#my-projects">Projects</a>
+          <a className="mr-10 hover:text-white cursor-pointer" href="#my-contact">Contact</a>
         </nav>
         <button
           className="inline-flex items-center bg-purple-900

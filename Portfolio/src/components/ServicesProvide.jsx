@@ -1,8 +1,14 @@
 
 function ServicesProvide() {
   return (
-    <section className="text-gray-400 bg-gray-900 body-font">
+    <section className="text-gray-400 bg-gray-900 body-font" id="my-service-provider">
+      
       <div className="container px-5 py-24 mx-auto">
+      <h1 className='bg-gray-900 text-white-500 p-8 ml-5 mr-5 text-center text-5xl rounded-lg font-bold'>Services Provide</h1>
+      <div className="flex flex-col items-center text-center justify-center">
+        
+        <div className="w-44 h-1 bg-indigo-500 rounded mt-2 mb-6 "></div>
+        </div>
         <div className="flex flex-wrap -m-4">
 
           <div className="p-4 lg:w-1/3 ">

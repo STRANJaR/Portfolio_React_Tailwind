@@ -16,7 +16,7 @@ function Home() {
 
 
   return (
-    <section className="text-gray-400 bg-gray-900 body-font pb-5">
+    <section className="text-gray-400 bg-gray-900 body-font pb-5" id="my-home">
     <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
 
 

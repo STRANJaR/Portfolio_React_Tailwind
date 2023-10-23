@@ -1,7 +1,7 @@
 
 function Skills() {
   return (
-    <section className="text-gray-400 bg-gray-900 body-font ">
+    <section className="text-gray-400 bg-gray-900 -mt-20 body-font " id="my-skills">
   <div className="container px-5 py-24 mx-auto">
     <div className="flex flex-col text-center w-full mb-20">
       {/* <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Skills & Experience</h1> */}
@@ -12,7 +12,7 @@ function Skills() {
         </div>
       {/* <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably havent heard of them.</p> */}
     </div>
-    <div className="flex flex-wrap -m-2">
+    <div className="flex flex-wrap -m-2 ">
       <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
         <div className="h-full flex items-center bg-orange-500 hover:-translate-y-1 duration-300 border-gray-800 border p-4 rounded-lg">
           <img alt="team" className="w-16 h-16 bg-gray-100 object-cover

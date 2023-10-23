@@ -11,7 +11,7 @@ function About() {
    }, [])
 
   return (
-    <section className="text-gray-400 bg-gray-900 body-font">
+    <section className="text-gray-400 bg-gray-900 body-font" id="my-about">
       <h1 className='bg-gray-900 text-white-500 p-8 ml-5 mr-5 text-center text-5xl font-bold rounded-lg '>About Me</h1>
       <div className="flex flex-col items-center text-center justify-center">
         
