@@ -3,7 +3,9 @@ import Contact from "./components/Contact"
 import Header from "./components/Header"
 import Home from "./components/Home"
 import Projects from "./components/Projects"
+import ServicesProvide from "./components/ServicesProvide"
 import Skills from "./components/Skills"
+import Statistic from "./components/Statistic"
 
 function App() {
 
@@ -12,7 +14,9 @@ function App() {
     <>
      <Header/>
      <Home />
+     <Statistic />
      <About />
+    <ServicesProvide />
      <Skills />
      <Projects />
      <Contact />

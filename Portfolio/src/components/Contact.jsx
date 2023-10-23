@@ -6,6 +6,10 @@ function Footer() {
     <div className="flex flex-col text-center w-full mb-12">
       {/* <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Contact Us</h1> */}
       <h1 className='bg-gray-900 text-white-500 p-8 ml-5 mr-5 text-center text-4xl font-bold rounded-lg '>Get In Touch</h1>
+      <div className="flex flex-col items-center text-center justify-center">
+        
+        <div className="w-44 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
+        </div>
 
       <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify.</p>
     </div>

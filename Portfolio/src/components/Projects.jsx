@@ -1,17 +1,23 @@
-
+import TodoImg from '../assets/img/Todo.png'
+import QuizImg from '../assets/img/Quize.png'
 
 function Projects() {
   return (
     <section className="text-gray-400 bg-gray-900 body-font">
-      <h1 className='bg-gray-900 text-white-500 p-8 ml-5 mr-5 text-center text-5xl rounded-lg font-bold'>Projects</h1>
+      <h1 className="bg-gray-900 text-white-500 p-8 ml-5 mr-5 text-center text-5xl rounded-lg font-bold">
+        Projects
+      </h1>
+      <div className="flex flex-col items-center text-center justify-center">
+        <div className="w-44 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
+      </div>
       <div className="container px-5 py-24 mx-auto">
-        <div className="flex flex-wrap -mx-4 -mb-10 text-center">
-          <div className="sm:w-1/2 mb-10 px-4">
+        <div className="flex flex-wrap -mx-1-mb-10  text-center">
+          <div className="sm:w-1/2 mb-10 px-4 bg-gray-800 p-5  rounded-lg">
             <div className="rounded-lg h-64 overflow-hidden">
               <img
                 alt="content"
                 className="object-cover object-center h-full w-full"
-                src='https://codecanyon.img.customer.envatousercontent.com/files/464046936/Cover.png?auto=compress%2Cformat&q=80&fit=crop&crop=top&max-h=8000&max-w=590&s=2194be682067f6574504aeb111bb7cd6'
+                src={TodoImg}
               />
             </div>
             <h2 className="title-font text-2xl font-medium text-white mt-6 mb-3">
@@ -21,16 +27,21 @@ function Projects() {
               Williamsburg occupy sustainable snackwave gochujang. Pinterest
               cornhole brunch, slow-carb neutra irony.
             </p>
-            <button className="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">
-              Live Link
-            </button>
+            <div className="flex ">
+              <button className="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">
+                Live Link
+              </button>
+              <button className="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">
+                Source Code
+              </button>
+            </div>
           </div>
-          <div className="sm:w-1/2 mb-10 px-4">
+          <div className="sm:w-1/2 mb-10 px-4 bg-gray-800 p-5 rounded-lg">
             <div className="rounded-lg h-64 overflow-hidden">
               <img
                 alt="content"
                 className="object-cover object-center h-full w-full"
-                src="https://i.ytimg.com/vi/PBcqGxrr9g8/maxresdefault.jpg"
+                src={QuizImg}
               />
             </div>
             <h2 className="title-font text-2xl font-medium text-white mt-6 mb-3">
@@ -40,17 +51,21 @@ function Projects() {
               Williamsburg occupy sustainable snackwave gochujang. Pinterest
               cornhole brunch, slow-carb neutra irony.
             </p>
-            <button className="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">
-              Live Link
-            </button>
+            <div className="flex ">
+              <button className="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">
+                Live Link
+              </button>
+              <button className="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">
+                Source Code
+              </button>
+            </div>
           </div>
         </div>
       </div>
 
-      
-      <div className="container px-5  mx-auto">
+      <div className="container px-5 -my-12 mx-auto">
         <div className="flex flex-wrap -mx-4 -mb-10 text-center">
-          <div className="sm:w-1/2 mb-10 px-4">
+          <div className="sm:w-1/2 mb-10 px-4 bg-gray-800 p-5 rounded-lg">
             <div className="rounded-lg h-64 overflow-hidden">
               <img
                 alt="content"
@@ -65,11 +80,16 @@ function Projects() {
               Williamsburg occupy sustainable snackwave gochujang. Pinterest
               cornhole brunch, slow-carb neutra irony.
             </p>
-            <button className="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">
-              Live Link
-            </button>
+            <div className="flex ">
+              <button className="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">
+                Live Link
+              </button>
+              <button className="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">
+                Source Code
+              </button>
+            </div>
           </div>
-          <div className="sm:w-1/2 mb-10 px-4">
+          <div className="sm:w-1/2 mb-10 px-4 bg-gray-800 p-5 rounded-lg">
             <div className="rounded-lg h-64 overflow-hidden">
               <img
                 alt="content"
@@ -84,9 +104,14 @@ function Projects() {
               Williamsburg occupy sustainable snackwave gochujang. Pinterest
               cornhole brunch, slow-carb neutra irony.
             </p>
-            <button className="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">
-              Live Link
-            </button>
+            <div className="flex ">
+              <button className="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">
+                Live Link
+              </button>
+              <button className="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">
+                Source Code
+              </button>
+            </div>
           </div>
         </div>
       </div>
